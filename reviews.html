@@ -8,44 +8,56 @@
 </head>
 <body>
   <div class="wraper services-page-wrapper">
-    <section class="hero-services">
-      <div class="container container-services">
-        <header class="header services-header">
+    <section class="hero-services hero-services__reviews">
+      <div class="container container-reviews">
+        <header class="header reviews-header">
           <div class="logo">
-            <a href="/" class="logo">
+            <a href="/" class="logo__link">
               <img src="./img/logo.png" alt="Логотип" class="logo__img"></a>
           </div>
-          <nav class="menu">
+          <nav class="menu header__menu">
             <ul class="menu__list">
-              <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+              <li class="menu__item"><a href="main.html" class="menu__link">Главная</a></li>
               <li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
               <li class="menu__item menu__item--active"><a href="#" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
-          <address class="contacts">
+          <address class="contacts header__contacts">
+            <a href="tel:+78007003030" class="contacts__phone header__phone">8 800 700 30 30 </a>
+            <div class="contacts__dropdown">
+              <a href="#" class="dropdown__link">График работы</a>
+              <div class="dropdown__menu">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item dropdown__item--bold">пн-вс: 09:00 - 20:00</li>
+                  <li class="dropdown__item">Обед: 14:00 - 14:30</li>
+                </ul>
+              </div>
+            </div>
+          </address>
+          <!-- <address class="contacts">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30 </a>
             <div class="contacts__dropdown-title">График работы</div>
-          </address>
+          </address> -->
         </header>
         <div class="hero-services__content">
           <div class="hero-services__text-section">
-            <h1 class="title-inner hero-services__title-inner">отзывы</h1>
-            <ul class="crumbs__list">
+            <h1 class="title-inner hero-services__title-reviews">отзывы</h1>
+            <ul class="crumbs">
               <li class="crumbs__item">
-                <a href="index.html" class="crumbs__link">Главная</a>
+                <a href="main.html" class="crumbs__link">Главная</a>
               </li>
-              <li class="crumbs__item">/</li>
+              <!-- <li class="crumbs__item">/</li> -->
               <li class="crumbs__item ">
-                <span class="menu__link">Услуги</span>
+                <span class="crumbs__link">Отзывы</span>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    <main class="page-content page-inner">
-      <div class="services">
-        <div class="container container-services">
+    <main class="page-content page-reviews">
+      <div class="services services-reviews">
+        <div class="container container-reviews">
           <ul class="reviews">
             <li class="reviews__item review">
               <div class="review__header">
@@ -57,7 +69,7 @@
                 <div class="review__userdata">
                   <a href="#" class="review__user">Иван Петрович</a>
                   <ul class="review__tags">
-                    <li class="review__tag-item tag ">Съемки клипа</li>
+                    <li class="review__tag-item tag tag--bg--activ">Съемки клипа</li>
                   </ul>
                 </div>
               </div>
@@ -79,7 +91,7 @@
                 <div class="review__userdata">
                   <a href="#" class="review__user">Иван Петрович</a>
                   <ul class="review__tags">
-                    <li class="review__tag-item tag">Съемки клипа</li>
+                    <li class="review__tag-item tag tag--bg--activ">Съемки клипа</li>
                   </ul>
                 </div>
               </div>
@@ -101,7 +113,7 @@
                 <div class="review__userdata">
                   <a href="#" class="review__user">Иван Петрович</a>
                   <ul class="review__tags">
-                    <li class="review__tag-item tag">Съемки клипа</li>
+                    <li class="review__tag-item tag tag--bg--activ">Съемки клипа</li>
                   </ul>
                 </div>
               </div>
@@ -123,7 +135,7 @@
                 <div class="review__userdata">
                   <a href="#" class="review__user">Иван Петрович</a>
                   <ul class="review__tags">
-                    <li class="review__tag-item tag">Съемки клипа</li>
+                    <li class="review__tag-item tag tag--bg--activ">Съемки клипа</li>
                   </ul>
                 </div>
               </div>
@@ -136,7 +148,7 @@
               </div>
             </li>
           </ul>
-          <div class="pager pager-services pager--theme--light">
+          <div class="pager pager-services pager--color--light">
             <div class="pager__display">Страница 1 из 7</div>
             <ul class="pager__list">
               <li class="pager__item pager__item--active">
@@ -151,25 +163,95 @@
           </div>
         </div>
       </div>
-      <div class="partners">
-        <div class="container container-services services-partners">
-          <h2 class="partners__title title-inner--dark">Партнеры</h2>
-          
+      
+    </main>
+    <section class="separator">
+      <div class="container container-reviews">
+        <div class="separator__content">
+          <h2 class="separator__title">
+            Скидка <span class="separator-red">20%</span> на съемку мероприятий
+          </h2>
         </div>
       </div>
-    </main>
-    <footer class="footer-container">
-      <div class="container container-services">
-        <div class="footer">
+    </section>
+    <section class="inner-section inner-section--bg--grey">
+      <div class="container container-reviews">
+        <h2 class="inner-section__title title-inner--color--dark">Оставьте отзыв</h2>
+        <form class="form">
+          <div class="form__row">
+            <input type="text" placeholder="Игорь Петрович" class="form__input">
+            <input type="text" placeholder="Ссылка на профиль VK" class="form__input">
+          </div>
+          <div class="form__row">
+            <textarea class="form__input form__input--textarea">Напишите свой честный отзыв ;) </textarea>
+          </div>
+          <div class="form__controls">
+            <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
+            <ul class="controls">
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Съемки клипа</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Съемки рекламы</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Съемка  свадьбы</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Студийная съемка</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Никакими</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Видео клип</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__elem">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Другое</div>
+                </label>
+              </li>
+               
+            </ul>
+          </div>
+          <div class="form__btns">
+            <button type="reset" class="btn form__btn btn--color--grey">Очистить</button>
+            <button type="submit" class="btn form__btn btn--color--white">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="reviews__footer">
+      <div class="container container-reviews">
+        <div class="footer reviews-footer">
           <div class="logo">
-            <a href="/" class="logo">
+            <a href="/" class="logo__link">
               <img src="./img/logo.png" alt="Логотип" class="logo__img"></a>
           </div>
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Главная</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+              <li class="menu__item"><a href="main.html" class="menu__link">Главная</a></li>
+              <li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
           <ul class="socials">

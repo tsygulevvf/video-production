@@ -12,31 +12,43 @@
       <div class="container container-services">
         <header class="header services-header">
           <div class="logo">
-            <a href="/" class="logo">
+            <a href="/" class="logo__link">
               <img src="./img/logo.png" alt="Логотип" class="logo__img"></a>
           </div>
-          <nav class="menu">
+          <nav class="menu header__menu">
             <ul class="menu__list">
-              <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+              <li class="menu__item"><a href="main.html" class="menu__link">Главная</a></li>
               <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
               <li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
-          <address class="contacts">
+          <address class="contacts header__contacts">
+            <a href="tel:+78007003030" class="contacts__phone header__phone">8 800 700 30 30 </a>
+            <div class="contacts__dropdown">
+              <a href="#" class="dropdown__link">График работы</a>
+              <div class="dropdown__menu">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item dropdown__item--bold">пн-вс: 09:00 - 20:00</li>
+                  <li class="dropdown__item">Обед: 14:00 - 14:30</li>
+                </ul>
+              </div>
+            </div>
+          </address>
+          <!-- <address class="contacts">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30 </a>
             <div class="contacts__dropdown-title">График работы</div>
-          </address>
+          </address> -->
         </header>
         <div class="hero-services__content">
           <div class="hero-services__text-section">
-            <h1 class="title-inner hero-services__title-inner">услуги</h1>
-            <ul class="crumbs__list">
+            <h1 class="title-inner hero-services__title-services">услуги</h1>
+            <ul class="crumbs">
               <li class="crumbs__item">
-                <a href="index.html" class="crumbs__link">Главная</a>
+                <a href="main.html" class="crumbs__link">Главная</a>
               </li>
-              <li class="crumbs__item">/</li>
+              <!-- <li class="crumbs__item">/</li> -->
               <li class="crumbs__item ">
-                <span class="menu__link">Услуги</span>
+                <span class="crumbs__link">Услуги</span>
               </li>
             </ul>
           </div>
@@ -44,7 +56,7 @@
       </div>
     </section>
     <main class="page-content page-inner">
-      <div class="services">
+      <section class="services">
         <div class="container container-services">
           <div class="services-list">
             <div class="services__item services-block">
@@ -52,7 +64,7 @@
                 <img src="./img/content/services/girls.jpg" alt="girls" class="services__image">
               </div>
               <div class="services-block__wrapper">
-                <h3 class="services-block__title section-title section-title--color--dark">Съемка мероприятий</h3>
+                <h3 class="services-block__title section-title section-title--color--dark">Съемки клипа</h3>
                 <div class="services__text">
                   <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, на начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
                 </div>
@@ -64,7 +76,7 @@
                 <img src="./img/content/services/engineer.jpg" alt="engineer" class="services__image">
               </div>
               <div class="services-block__wrapper">
-                <h3 class="services-block__title section-title section-title--color--dark">Съемки клипа</h3>
+                <h3 class="services-block__title section-title section-title--color--dark">Съемка мероприятий</h3>
                 <div class="services__text">
                   <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, на начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
                 </div>
@@ -72,7 +84,7 @@
               </div>
             </div>
           </div>
-          <div class="pager pager-services">
+          <div class="pager pager--color--light">
             <div class="pager__display">Страница 1 из 7</div>
             <ul class="pager__list">
               <li class="pager__item pager__item--active">
@@ -86,8 +98,8 @@
             </ul>
           </div>
         </div>
-      </div>
-      <div class="partners">
+      </section>
+      <section class="partners">
         <div class="container container-services services-partners">
           <h2 class="partners__title title-inner--dark">Партнеры</h2>
           <div class="partners__logo">
@@ -135,20 +147,20 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
     </main>
-    <footer class="footer-container">
+    <footer class="services__footer">
       <div class="container container-services">
-        <div class="footer">
+        <div class="footer services-footer">
           <div class="logo">
-            <a href="/" class="logo">
+            <a href="/" class="logo__link">
               <img src="./img/logo.png" alt="Логотип" class="logo__img"></a>
           </div>
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Главная</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+              <li class="menu__item"><a href="main.html" class="menu__link">Главная</a></li>
+              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
+              <li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
           <ul class="socials">
