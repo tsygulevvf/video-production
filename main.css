@@ -872,6 +872,7 @@ p {
   align-items: center;
   justify-content: center;
   background: url("./img/content/bottom-pic.jpg") center bottom / cover no-repeat;
+  background: url("./img/content/rec.png") center center no-repeat;
 }
 
 .welcome--video {
@@ -885,10 +886,14 @@ p {
   align-items: center;
 }
 
+.central--video {
+  margin-bottom: 41px;
+}
+
 .central__logo {
   width: 538px;
   height: 147px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   /* margin-top: 378px; */
 }
 
