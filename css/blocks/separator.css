@@ -1,0 +1,28 @@
+.separator {
+  min-height: 363px;
+  background: #373737 url("../../img/content/reviews/party.png") right 196px bottom no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .separator__bg {
+  background:  url("./img/content/reviews/party.jpg") right 196px bottom no-repeat;
+  height: 363px;
+} */
+
+.separator__content {
+  max-width: 49%;
+}
+
+.separator__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.35;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.separator--red {
+  color: red;
+}

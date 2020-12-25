@@ -1,0 +1,19 @@
+.header {
+  min-height: 55px;
+  /* margin-top: 21px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  margin-top: 9px;
+}
+
+.header__contacts {
+  margin-top: 18px;
+}
+
+.header__phone {
+  line-height: .8;
+}

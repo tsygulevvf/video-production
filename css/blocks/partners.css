@@ -1,0 +1,39 @@
+.partners {
+  background: #F4F5F5;
+}
+
+.partners__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #1A1B1E;
+  margin-bottom: 75px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-right: 48px;
+}
+
+.partners__item {
+  flex-basis: 24%;
+  margin-bottom: 59px;
+  text-align: center;
+  filter: grayscale(1);
+}
+
+.partners__item:hover {
+  filter: grayscale(0);
+}
+
+.partners__item:nth-child(4n) {
+  text-align: right;
+}
+
+.partners__item:nth-child(4n+1) {
+  text-align: left;
+}

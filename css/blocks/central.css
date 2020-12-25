@@ -1,0 +1,47 @@
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central--video {
+  margin-bottom: 41px;
+}
+
+.central__logo {
+  width: 538px;
+  height: 147px;
+  margin-bottom: 36px;
+  /* margin-top: 378px; */
+}
+
+
+
+.central--video {
+  opacity: 0;
+  animation: logorotation .9s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes logorotation {
+  from {
+    transform: scale(0.1) rotate(30deg);
+  }
+
+  /* 50% {
+    transform: rotate(-10%);
+  } */
+
+  60% {
+    transform: rotate(-10deg);
+  }
+
+  80% {
+    transform: rotate(5deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

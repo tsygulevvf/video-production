@@ -1,0 +1,18 @@
+.hero {
+  margin-bottom: 233px;
+  padding-top: 21px;
+}
+
+.hero__text-section {
+  text-align: center;
+  width: 785px;
+  margin: auto;
+  margin-bottom: 233px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  line-height: 1.11;
+  margin-bottom: 43.5px;
+}
+

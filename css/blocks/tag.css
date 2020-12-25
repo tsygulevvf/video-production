@@ -1,0 +1,13 @@
+.tag {
+  font-weight: normal;
+  font-size: 13px; 
+  line-height: 1.39;
+  color: #303030; 
+  padding: 10px 25px;
+  border-radius: 35px;
+  background: #E7E7E7;
+}
+
+.tag--bg--activ {
+  background: #F2D4C9;
+}

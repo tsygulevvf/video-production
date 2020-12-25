@@ -1,0 +1,28 @@
+.hero-services {
+  background: url("../../img/content/top-line.jpg") center center no-repeat;
+}
+
+.hero-services {
+  padding-top: 23px;
+}
+
+.hero-services__content {
+  padding-bottom: 27.5px;
+}
+
+.hero-services__title-inner {
+  margin-bottom: 83.5px;
+}
+
+.hero-services__title-services {
+  margin-bottom: 83px;
+}
+
+.hero-services__reviews {
+  padding-top: 21px;
+}
+
+.hero-services__title-reviews {
+  margin-bottom: 81px;
+}
+

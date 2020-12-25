@@ -1,0 +1,42 @@
+.pager {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pager--color--light {
+  color: #000000;
+}
+
+.pager__display,
+.pager__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__display {
+  margin-right: 34px;
+}
+
+.pager__item {
+  display: inline-block;
+ /*  vertical-align: middle; */
+  text-align: center;
+  margin-right: -4px;
+}
+
+.pager__item--active .pager__link {
+  background: #FF5500;
+  color: #ffffff;
+}
+
+.pager__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 32px;
+}

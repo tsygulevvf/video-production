@@ -1,0 +1,26 @@
+.crumbs {
+  display: flex;
+}
+
+.crumbs__item {
+  margin-right: 1px;
+}
+
+.crumbs__item:last-child {
+  margin-right: 0;
+}
+
+.crumbs__item:after {
+  content: "/";
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.crumbs__item:last-child:after {
+  display: none;
+}
+
+.crumbs__link {
+  font-size: 14px;
+  text-decoration: underline;
+}
